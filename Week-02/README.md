@@ -2,6 +2,18 @@
 
 Open `week02_prompt_engineering-ollama.ipynb`. Requires [Ollama](https://ollama.com) running locally with a model (e.g. `ollama pull llama3.1:8b`). Optional `.env`: `OLLAMA_MODEL`, `OLLAMA_HOST`.
 
+## Setup (first time)
+
+```bash
+cd Week-02
+uv venv          # or: python -m venv .venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
+python -m ipykernel install --user --name=week02-venv --display-name="Week-02 .venv (3.13.9)"
+```
+
+`uv venv` does not include `pip` — use `uv pip install`, not `%pip install` in the notebook.
+
 ## Run in Cursor
 
 Select kernel **Week-02 .venv (3.13.9)** (`week02-venv`), then run cells top to bottom.
