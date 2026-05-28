@@ -130,6 +130,11 @@ Create a `.env` file in the repo root (never commit it):
 ANTHROPIC_API_KEY=your_key_here
 ```
 
+### Langchain documentation
+```powershell
+https://reference.langchain.com/python/langchain/overview
+```
+
 Week notebooks load this via `python-dotenv` where applicable.
 
 ### 7. Run code
