@@ -105,8 +105,24 @@ Each week folder has its own `requirements.txt`. Example for Week 1:
 ```powershell
 uv pip install -r Week-01\requirements.txt
 ```
+# multidocs-olllama-rag-app
 
-
+# Install Ollama
+```powershell
+curl -fsSL https://ollama.com/install.sh | sh
+```
+# Pull required models
+```powershell
+ollama pull llama3.1:8b          # LLM for answer generation (~2 GB)
+```
+# Start Ollama server
+```powershell
+ollama serve &
+```
+# Verify models are running
+```powershell
+curl http://localhost:11434/api/tags
+```
 ### 6. Configure API keys (Week 1 Session 2 onward)
 
 Create a `.env` file in the repo root (never commit it):
