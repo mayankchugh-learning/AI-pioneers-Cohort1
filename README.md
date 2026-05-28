@@ -52,12 +52,12 @@ uv --version
 
 ## Step-by-step: create and use the environment
 
-Run these commands from the **repository root** (`PythonWalkThrough`).
+Run these commands from the **repository root** (`AI-pioneers-Cohort1`).
 
 ### 1. Clone and open the project
 
 ```powershell
-cd c:\Session\1-Day-16May26-Class\PythonWalkThrough
+cd c:\AI-pioneers-Cohort1
 ```
 
 ### 2. Create a virtual environment
@@ -95,7 +95,7 @@ uv pip install jupyter ipykernel
 Register the kernel so VS Code / Cursor can select it:
 
 ```powershell
-uv run python -m ipykernel install --user --name=pythonwalkthrough --display-name "Python Walkthrough (.venv)"
+uv run python -m ipykernel install --user --name=ai-pioneers-cohort1 --display-name "AI-pioneers-Cohort1 (.venv)"
 ```
 
 ### 5. Install dependencies for the week you are on
@@ -198,7 +198,7 @@ Remote repository (private):
 If Git is not initialized yet:
 
 ```powershell
-cd c:\Session\1-Day-16May26-Class\PythonWalkThrough
+cd c:\AI-pioneers-Cohort1
 git init
 git branch -M main
 ```
