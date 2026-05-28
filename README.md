@@ -105,7 +105,6 @@ Each week folder has its own `requirements.txt`. Example for Week 1:
 ```powershell
 uv pip install -r Week-01\requirements.txt
 ```
-# multidocs-olllama-rag-app
 
 # Install Ollama
 ```powershell
