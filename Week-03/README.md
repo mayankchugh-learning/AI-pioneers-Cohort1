@@ -15,7 +15,7 @@
 
 ---
 
-## Before you start
+## Before start
 
 1. **Ollama** installed and running: [ollama.com/download](https://ollama.com/download/windows)
 2. Pull a chat model (example):
@@ -27,7 +27,7 @@
 
 3. From the **repo root**, use the course virtual environment (see root `README.md` for `uv venv`, Jupyter kernel, and `.env` setup).
 
-Optional in `.env` at repo root:
+`.env` at repo root:
 
 ```env
 OLLAMA_MODEL=llama3.1:8b
@@ -143,4 +143,3 @@ ollama run llama3.1:8b
 ollama list
 ollama ps
 ollama stop llama3.1:8b
-```
